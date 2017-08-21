@@ -1,0 +1,20 @@
+{
+  "name": "tylerlangenbrunner.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/scripts.js",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "keywords": ["portfolio", "personal", "website", "tech", "coding", "dev"],
+  "author": "Tyler Langenbrunner",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
