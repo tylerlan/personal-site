@@ -4,7 +4,6 @@ This repo contains the code for my first serious run at making a personal site t
 
 ## Features
 
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
+* Gulp ready (minifies JS)
 * Fully responsive
 * Bootstrap grid system

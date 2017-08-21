@@ -9,7 +9,7 @@
 
     e.preventDefault();
     var heading = $(this).attr('href');
-    var scrollDistance = $(heading).offset().top;
+    var scrollDistance = $(heading).offset().top - 65;
 
     $('html, body').animate(
       {
