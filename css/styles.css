@@ -69,18 +69,18 @@ header#banner .wrapper_md {
   z-index: 1;
 }
 h2.logo {
-  -webkit-transition: all .5s;
-  -khtml-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  -webkit-animation-duration: .5s;
-  -khtml-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  -ms-animation-duration: .5s;
-  -o-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-transition: all 0.5s;
+  -khtml-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -khtml-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   -khtml-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
@@ -96,12 +96,12 @@ h2.logo a:hover {
 }
 
 a {
-  -webkit-transition: opacity .5s ease-in-out;
-  -khtml-transition: opacity .5s ease-in-out;
-  -moz-transition: opacity .5s ease-in-out;
-  -ms-transition: opacity .5s ease-in-out;
-  -o-transition: opacity .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -khtml-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   color: rgba(255, 255, 255, 0.9);
   text-decoration: line-through;
 }
@@ -150,30 +150,30 @@ nav {
 }
 
 nav a {
-  -webkit-transition: all .5s;
-  -khtml-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
-  -webkit-animation-duration: .5s;
-  -khtml-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  -ms-animation-duration: .5s;
-  -o-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-transition: all 0.5s;
+  -khtml-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -khtml-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   -khtml-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-transition: all .5s ease-in-out;
-  -khtml-transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -ms-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -khtml-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   display: inline-block;
   font-family: 'Source Sans Pro', serif;
   font-weight: 400;
@@ -223,8 +223,8 @@ nav a.active {
   padding: 15px 25px;
   border: 1px solid;
   border-radius: 30px;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 #download-button:hover {
@@ -237,9 +237,10 @@ nav a.active {
   padding: 15px 25px;
   border: 3px solid #fff;
   border-radius: 30px;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
+
 .btn-rounded-white:hover {
   color: #3498db;
   background: #fff;
@@ -515,8 +516,8 @@ nav a.active {
   margin-bottom: 10px;
   background: #1d6fa5;
   color: #fff;
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
@@ -555,8 +556,8 @@ nav a.active {
   color: #3498db;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -webkit-transition: .5s ease all;
-  transition: .5s ease all;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 #contact-form button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
